@@ -39,6 +39,14 @@ public class CrossOrgBPC {
 		return a;
 	}
 	
+	protected static Automaton combineParallel(String...automatonStrings){
+		Automaton[] automatons = new Automaton[automatonStrings.length];
+		for (int i = 0; i < automatonStrings.length; i++) {
+			automatons[i] = createAutomaton(automatonStrings[i]);
+		}
+		return combineParallel(automatons);
+	}
+	
 	protected static Automaton combineParallel(Automaton...automatons){
 		Automaton a = new ShuffleRegExp("").toAutomaton();
 		for (Automaton a2 : automatons){

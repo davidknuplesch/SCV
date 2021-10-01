@@ -3,7 +3,7 @@ A simple compliance verification tool written by David Knuplesch.
 
 ## Requirements:
 The SCV tool requires Java. We recommend Java 11 but later and older versions up from Java 8 may work as well. 
-If you do not have java installed yet, you may download a Java openJDK (e.g. from Microsoft: https://docs.microsoft.com/en-us/java/openjdk/download).
+If you do not have java installed yet, you may download a Java openJDK (e.g. from Microsoft: https://docs.microsoft.com/en-us/java/openjdk/download.
 
 ## Quick guide: 
 1. Download the [SCV.jar](SCV.jar).
